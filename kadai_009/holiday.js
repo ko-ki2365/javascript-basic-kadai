@@ -9,6 +9,6 @@ for (let i = 0; i <= 15; i += 1) {
 // while文
 let i = 0;
 while (i !== 15) {
-    i++;
     console.log(holidays[i]);
+    i++;
 }
