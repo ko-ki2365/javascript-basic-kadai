@@ -1,6 +1,6 @@
-// 関数を定義(numの2乗)
+// 引数numを2乗した値を戻り値として返す関数を定義
 const useArgument = (num) => {
-    console.log(num ** 2);
+    return num ** 2;
 }
-// 関数を呼び出す+引数50を渡す
-useArgument(50);
+// 関数の戻り値を出力
+console.log(useArgument(40));
